@@ -28,6 +28,12 @@ class _FibonacciListScreenState extends State<FibonacciListScreen> {
     _initializeLists();
   }
 
+  @override
+  void dispose() {
+    _mainScrollController.dispose();
+    super.dispose();
+  }
+
   void _initializeLists() {
     _mainList = FibonacciUtils.generateFibonacciList(_initialListSize);
     _bottomSheetLists = {

@@ -23,7 +23,7 @@ A Flutter application that displays a list of Fibonacci numbers with interactive
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/fibonacci_list.git
+   git clone https://github.com/posawatji/fibonacci_list.git
    ```
 
 2. Navigate to the project directory:
